@@ -1,0 +1,165 @@
+* {
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+}
+body {
+    background-color: black;
+    margin: 0;
+}
+
+nav {
+   margin: 0;
+   width: 100%;
+   height: 69px;
+   position: fixed;
+   border-bottom: 1px solid white;
+   z-index: 1;
+   background-color: black;
+}
+
+nav ul {
+   margin-right: 5px;
+   padding-top: 5px;
+}
+
+nav ul li {
+    display: inline;
+    float: right;
+}
+
+nav ul li a {
+    color: seashell;
+    margin-left: 10px;
+}
+
+#logo {
+    position: absolute;
+    left: 0px;
+    top: 8px;
+}
+
+#logo img {
+    height: 50px;
+}
+
+.hero {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    background-color:black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0%;
+}
+
+.mid {
+    position: relative;
+    top: 70px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.tea-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.items figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    align-items: center;
+}
+
+.items figure figcaption {
+    text-align: center;
+    font-size: large;
+}
+
+.items figure img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#locations {
+    top: 120px;
+    position: relative;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: -20px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: cover;
+    background-position-y: -70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+}
+
+#locations h2 {
+    padding-top: 5%;
+}
+
+.city-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.city {
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.9;
+    margin:15px 40px;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+    margin: 20px 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+#copyright {
+    position:relative;
+    text-align: left;
+    bottom: 20px;
+}
+
+h3, h4, h5 {
+    font-size: medium;
+    text-align: center;
+}
+
+h1,h2 {
+    font-size: x-large;
+    text-align: center;
+}
